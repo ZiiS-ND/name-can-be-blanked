@@ -1,4 +1,5 @@
-// Loop. O(n) time, O(1) space. Returns 0 for n < 1.
+// Loop.
+// Time: O(n), Space: O(1). Returns 0 for n < 1.
 var sum_to_n = function (n) {
   let sum = 0;
   for (let i = 1; i <= n; i++) sum += i;
