@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports:
+      - "${PORT:-3000}:3000"
+    volumes:
+      - tasks-data:/data
+
+volumes:
+  tasks-data:
